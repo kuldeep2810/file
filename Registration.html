@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>
+        Registration Page
+    </title>
+</head>
+    <link rel="stylesheet" href="Ragistration.css" type="text/css">
+    <ul> <li><a href="homePage.html">Home</a></li>
+        <li><a href="Services.html">Service</a></li>
+        <li><a href="Registration.html">Registration</a></li>
+        <li><a href="About.html">About us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul>
+<body> 
+    <center>
+        <h1>Registration Page</h1></center>        
+        <center> <table border = '2'>
+            <tr><td>Name </td><td><input type="text" placeholder="enter your name"></td></tr>
+            <tr><td>E-Mail</td><td> <input type="text" placeholder="enter your Email"></td></tr>
+            <tr><td>Password</td><td> <input type="password" placeholder="enter your name"></td></tr>
+            <tr><td>Gender</td><td><input type="radio" name="Gender" value="Male">Male
+                                   <input type="radio" name="Gender" value="Female"> Female  
+            </td></tr>
+            <tr><td>Location</td><td><input type="checkbox" name="Location" value="indore"/>indore
+                                     <input type="checkbox" name="Location" value="Ratlam"/>Ratlam
+                                     <input type="checkbox" name="Location" value="Ujjain"/>Ujjain
+                                     <input type="checkbox" name="Location" value="Dewas"/>Dewas
+                                     <input type="checkbox" name="Location" value="mhow"/>mhow </td></tr>
+            <tr><td>Date</td><td><input type="date"></td></tr>
+            <tr><td>Courses</td><td><select><option value="Java" > Java </option>
+                                            <option value="Python" >Python</option>
+                                            <option value="nodejs" >NodeJS</option>
+                                            <option value="React" >React</option></select></td></tr>
+            <tr><td>Feedback</td><td><textarea rows="3" cols="20" name="textarea"></textarea></td></tr>
+        </table>
+        <input type="button" name="btnsubmt" value="Submit" onclick="alert('Form submitted successfully')">
+    </center>
+
+</body>
+</html>

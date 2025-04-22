@@ -1,0 +1,1 @@
+alert("Wlcome to the first page");

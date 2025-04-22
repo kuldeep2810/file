@@ -1,0 +1,49 @@
+body{
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style for the body */ 
+    margin: 20px;
+    padding: 20px; /* Padding around the body */
+    color: #333; /* Dark gray text color */ 
+    line-height: 1.6; /* Line height for better readability */
+    text-align: center; /* Centered text alignment */
+    font-size: 16px; /* Base font size */
+    border-radius: 8px; /* Rounded corners for the body */
+    }
+ul{
+      color: #fff;
+      font-size: 1em;
+      text-align: right;
+      background-color: #f0f0f0;}
+  li{
+          display: inline;
+          margin-left: 20px;
+      }
+  
+  li a{
+      text-decoration: none;
+      display: inline-block;
+      }  
+  h1{
+    color: #2c3e50; /* Dark blue color for the heading */
+    font-size: 2.5em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle shadow effect for the heading */
+    }
+  table{
+    width: 35%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin: 40px 40px; /* Space above and below the table */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow effect for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; 
+    box-shadow: #333;/* Hide overflow for rounded corners */
+    }
+  tr td{
+    padding: 15px; /* Padding inside table cells */
+    border-bottom: 1px solid #ddd; /* Light gray border between rows */
+    text-align: left;  /* Left alignment for table cell text */
+    text-decoration:dashed; /* Font size for table cell text */
+    font-size: 16px; /* Font size for table cell text */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1); /* Shadow effect for table cells */
+    border-radius: 4px; /* Rounded corners for table cells */
+    } 
